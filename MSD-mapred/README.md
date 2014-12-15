@@ -1,4 +1,4 @@
 MSD
 ===
 
-Make the year prediction with Naive Bayes and SVM based on the MSD from Amazon PDS
+Make year prediction with Naive Bayes model trained from the Millon Song Dataset located in Amazon PDS.
