@@ -1,7 +1,7 @@
 MSD
 ===
 
-Song recommendation and year prediction application backed by the process of Million Song Dataset on Amazon PDS by using map reduce and data mining technologies.
+Song recommendation and year prediction application backed by the data process on Million Song Dataset from Amazon PDS by using map reduce and data mining.
 
 ##
 MSD-mapred contains all code for training the Naive Bayes model in java hadoop.
