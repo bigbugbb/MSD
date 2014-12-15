@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Develop/Android/android-sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/Develop/Github/MSDMobile/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-048d7496a56ef53bfd88502e931188384c8a724e.jar" />
+    </item>
+    <item
+        jar="/Users/bigbug/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Develop/Github/MSDMobile/app/build/intermediates/pre-dexed/debug/gson-2.2.4-287e697798d273160f779b3eec17f7f4fd1baefb.jar" />
+    </item>
+    <item
+        jar="/Develop/Github/MSDMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/Develop/Github/MSDMobile/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-ef4f0db27d42692133e051df3a00f5a40d6ad87d.jar" />
+    </item>
+    <item
+        jar="/Users/bigbug/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Develop/Github/MSDMobile/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-74096b37d159de174e5d3457eeedd66ef05b1bbc.jar" />
+    </item>
+    <item
+        jar="/Develop/Github/MSDMobile/app/build/intermediates/exploded-aar/com.github.erd/android-volley/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="24c7ec1ecd41d65b24a76cef274fdd5f0805e98b">
+        <dex dex="/Develop/Github/MSDMobile/app/build/intermediates/pre-dexed/debug/classes-af63305ec954e41e586b04ab793e92ce6bd6e147.jar" />
+    </item>
+    <item
+        jar="/Develop/Github/MSDMobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/Develop/Github/MSDMobile/app/build/intermediates/pre-dexed/debug/classes-a9dce6b5a4573e9657498ec081af4e0742efab8c.jar" />
+    </item>
+    <item
+        jar="/Develop/Github/MSDMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/Develop/Github/MSDMobile/app/build/intermediates/pre-dexed/debug/classes-7112fed4b1390eca4d0f366d2e05007c240b80d5.jar" />
+    </item>
+
+</items>
