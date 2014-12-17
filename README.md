@@ -10,4 +10,4 @@ MSD-mapred contains all code for training the Naive Bayes model in java hadoop.
 MSD-django is the server hosted on EC2. The output of MSD-mapred on S3 is imported to the django server's postgres database.
 
 ##
-MSD-android is an android phone which communicate with the django server to get the song profiles, respond to user's requests of year prediction and song recommandation.
+MSD-android is an android app communicating with MSD-django to fetch song profiles and respond to users' requests of year prediction and song recommandation.
