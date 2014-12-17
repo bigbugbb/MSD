@@ -29,7 +29,6 @@ The backend of MSD project. MSD runs the Hadoop MapReduce jobs on EMR and output
 #### 3. Install dependent libraries
 
  * Intall from the requirements.txt file: pip install -r requirements.txt
- * Go to django-separatedvaluesfield folder and type: python setup.py install
 
 #### 4. Make database migrations and csv import
  * Swtich back to the project root folder and type: python manager.py makemigrations
