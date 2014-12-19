@@ -3,6 +3,7 @@ import urllib.request
 import xml.etree.ElementTree as etree
 from django.shortcuts import render
 from django.core import serializers
+from django.core.cache import cache
 from django.http import HttpResponse
 from django.db.models import Q
 from song.models import Profile
@@ -21,7 +22,7 @@ def profile_index(request):
 	print('profile count: {0}'.format(count))
 
 	# create the indices to get the profile objects from database
-	indices = range(0, count)
+	indices = [i for i in range(0, count)]
 
 	# shuffle the indices because we want some randomness
 	for n in range(0, count):
@@ -132,19 +133,26 @@ def get_song_info(releaseid):
 	return info
 
 def predict_year(request, release_id):
-	testdata  = TestData.objects.filter(releaseid=release_id)[0]
-	predicted = testdata.testresult_set.all()[0].result
+	key = 'predict:' + release_id
+	predicted = cache.get(key)
+	if predicted is None:
+		testdata  = TestData.objects.filter(releaseid=release_id)[0]
+		predicted = testdata.testresult_set.all()[0].result
+		cache.set(key, predicted, 60 * 60)
 	return HttpResponse(predicted)
 
 def recommend_songs(request, release_id):	
+	key = 'recommend:' + release_id
 	# get the cluster the song belongs to
-	clusters = []
-	try:
-		centroid = Profile.objects.filter(releaseid=release_id)[0].centroid
-		if centroid != None:			
-			clusters = Profile.objects.filter(Q(centroid=centroid) & ~Q(releaseid=release_id) & ~Q(image=None))[:30]
-	except:
-		pass
+	clusters = cache.get(key)
+	if clusters is None:
+		try:
+			centroid = Profile.objects.filter(releaseid=release_id)[0].centroid
+			if centroid != None:			
+				clusters = Profile.objects.filter(Q(centroid=centroid) & ~Q(releaseid=release_id) & ~Q(image=None))[:30]
+				cache.set(key, clusters, 60 * 60)
+		except:
+			pass
 
 	# return the json format
 	jsonData = serializers.serialize("json", clusters)

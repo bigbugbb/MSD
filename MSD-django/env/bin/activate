@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Develop/Github/MSD-django/env"
+VIRTUAL_ENV="/Develop/Github/MSD/MSD-django/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

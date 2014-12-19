@@ -1,4 +1,4 @@
-#!/Develop/Github/MSD-django/env/bin/python3
+#!/Develop/Github/MSD/MSD-django/env/bin/python3
 from django.core import management
 
 if __name__ == "__main__":
