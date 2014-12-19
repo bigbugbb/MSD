@@ -1,4 +1,5 @@
 import csv
+import hashlib
 import urllib.request
 import xml.etree.ElementTree as etree
 from django.shortcuts import render
@@ -6,6 +7,7 @@ from django.core import serializers
 from django.core.cache import cache
 from django.http import HttpResponse
 from django.db.models import Q
+from django.views.decorators.http import etag
 from song.models import Profile
 from msd.settings import PROJECT_ROOT
 from naivebayes.models import TestData, TestResult
@@ -132,6 +134,15 @@ def get_song_info(releaseid):
 	
 	return info
 
+def generate_predict_etag(request, release_id):
+	content = 'predict: {0}'.format(release_id)
+	return hashlib.sha1(content.encode('utf-8')).hexdigest()
+
+def generate_recommend_etag(request, release_id):
+	content = 'recommend: {0}'.format(release_id)
+	return hashlib.sha1(content.encode('utf-8')).hexdigest()
+
+@etag(generate_predict_etag)
 def predict_year(request, release_id):
 	key = 'predict:' + release_id
 	predicted = cache.get(key)
@@ -141,6 +152,7 @@ def predict_year(request, release_id):
 		cache.set(key, predicted, 60 * 60)
 	return HttpResponse(predicted)
 
+@etag(generate_recommend_etag)
 def recommend_songs(request, release_id):	
 	key = 'recommend:' + release_id
 	# get the cluster the song belongs to
