@@ -19,8 +19,9 @@ public final class Constants {
     }
 
     public static class Url {
-        public static final String SONG_PROFILES = "http://54.86.162.1/song/profile/";
-        public static final String YEAR_PREDICTION = "http://54.86.162.1/song/predict/";
-        public static final String RECOMMEND_SONGS = "http://54.86.162.1/song/recommend/";
+        private static final String HOST = "http://ec2-54-86-162-1.compute-1.amazonaws.com/";
+        public static final String SONG_PROFILES = HOST + "song/profile/";
+        public static final String YEAR_PREDICTION = HOST + "song/predict/";
+        public static final String RECOMMEND_SONGS = HOST + "song/recommend/";
     }
 }
