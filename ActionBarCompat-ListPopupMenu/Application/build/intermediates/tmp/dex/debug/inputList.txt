@@ -1,7 +1,0 @@
-/Develop/Github/MSD/ActionBarCompat-ListPopupMenu/Application/build/intermediates/classes/debug
-/Develop/Github/MSD/ActionBarCompat-ListPopupMenu/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-048d7496a56ef53bfd88502e931188384c8a724e.jar
-/Develop/Github/MSD/ActionBarCompat-ListPopupMenu/Application/build/intermediates/pre-dexed/debug/classes-77b55566e1d0f1d567628d40318b9dfee10960d7.jar
-/Develop/Github/MSD/ActionBarCompat-ListPopupMenu/Application/build/intermediates/pre-dexed/debug/classes-1a1ef19f043cb9e5bcf77a4cc4a672acfaef5b2a.jar
-/Develop/Github/MSD/ActionBarCompat-ListPopupMenu/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-0bfe2e5197f7cb56dbd9fc7cb6a1c8d40d89f95d.jar
-/Develop/Github/MSD/ActionBarCompat-ListPopupMenu/Application/build/intermediates/pre-dexed/debug/classes-a78bac3642a83117940d25d0d98ff82b6e80be7e.jar
-/Develop/Github/MSD/ActionBarCompat-ListPopupMenu/Application/build/intermediates/pre-dexed/debug/classes-32ef61731e6db39bbfd85ac1e24fc4269aa4ec9d.jar

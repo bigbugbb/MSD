@@ -1,7 +1,0 @@
-/Develop/Github/MSD/ActionBarCompat-Basic1/Application/build/intermediates/classes/debug
-/Develop/Github/MSD/ActionBarCompat-Basic1/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-048d7496a56ef53bfd88502e931188384c8a724e.jar
-/Develop/Github/MSD/ActionBarCompat-Basic1/Application/build/intermediates/pre-dexed/debug/classes-e0548d07352dca81c2763321b041c2ead75c1253.jar
-/Develop/Github/MSD/ActionBarCompat-Basic1/Application/build/intermediates/pre-dexed/debug/classes-404c460ce3f3d26b735deec1909afa0cacb5f0a7.jar
-/Develop/Github/MSD/ActionBarCompat-Basic1/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-d950d60ee0a3b592c042f34d53b5923a3369c09c.jar
-/Develop/Github/MSD/ActionBarCompat-Basic1/Application/build/intermediates/pre-dexed/debug/classes-cac4efc4985df9bcb4ff068cbce31779f5df3e8e.jar
-/Develop/Github/MSD/ActionBarCompat-Basic1/Application/build/intermediates/pre-dexed/debug/classes-9596fd71c175f4fa42275cdea23524cd7ec0cae5.jar

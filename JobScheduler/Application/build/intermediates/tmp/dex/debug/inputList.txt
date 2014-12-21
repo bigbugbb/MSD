@@ -1,7 +1,0 @@
-/Develop/Github/MSD/JobScheduler/Application/build/intermediates/classes/debug
-/Develop/Github/MSD/JobScheduler/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-07d634e321f1628009989241892f69bc48a2453b.jar
-/Develop/Github/MSD/JobScheduler/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-048d7496a56ef53bfd88502e931188384c8a724e.jar
-/Develop/Github/MSD/JobScheduler/Application/build/intermediates/pre-dexed/debug/classes-e62fde79ce784ddec4d41dbc36f56d2f0af0886b.jar
-/Develop/Github/MSD/JobScheduler/Application/build/intermediates/pre-dexed/debug/classes-19c057b07c29f7769191a4192954c8f25b22ca10.jar
-/Develop/Github/MSD/JobScheduler/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-f08347a311974e63d05b0032b0e4c1d040502b9b.jar
-/Develop/Github/MSD/JobScheduler/Application/build/intermediates/pre-dexed/debug/classes-f0657de1d061a1b386effc0f0824b76a7e31c3ad.jar
