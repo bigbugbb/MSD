@@ -1,0 +1,4 @@
+/Develop/Github/MSD/BasicNetworking/Application/build/intermediates/classes/debug
+/Develop/Github/MSD/BasicNetworking/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-048d7496a56ef53bfd88502e931188384c8a724e.jar
+/Develop/Github/MSD/BasicNetworking/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-a8fa688a239e609dfb0bc1735def256c80ed7d80.jar
+/Develop/Github/MSD/BasicNetworking/Application/build/intermediates/pre-dexed/debug/classes-daa759e4791a2599971f4ec084fda09bca83a6f5.jar

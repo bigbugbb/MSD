@@ -1,0 +1,7 @@
+/Develop/Github/MSD/Camera2Basic/Application/build/intermediates/classes/debug
+/Develop/Github/MSD/Camera2Basic/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-a21601c507b6a2e525f9c6998ce25838dbb31add.jar
+/Develop/Github/MSD/Camera2Basic/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-048d7496a56ef53bfd88502e931188384c8a724e.jar
+/Develop/Github/MSD/Camera2Basic/Application/build/intermediates/pre-dexed/debug/classes-941bb50d59406032263229e54f19736eea90062f.jar
+/Develop/Github/MSD/Camera2Basic/Application/build/intermediates/pre-dexed/debug/classes-b9cc1fe3a81c918cfe1a98f6640a9fcb865a1ecd.jar
+/Develop/Github/MSD/Camera2Basic/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-d03e5333511ba6ac8d53e00f1ba6b7856a37f1fb.jar
+/Develop/Github/MSD/Camera2Basic/Application/build/intermediates/pre-dexed/debug/classes-9128db26ee096e8eae0564bf8f95a38fa4784f98.jar
