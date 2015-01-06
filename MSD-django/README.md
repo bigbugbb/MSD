@@ -47,5 +47,6 @@ The backend of MSD project. MSD runs the Hadoop MapReduce jobs on EMR and output
  * Execute: sudo apt-get install python3-dev
  * Execute: sudo apt-get install apache2-dev
  * Install mod_wsgi-4.4.0 (see this: https://code.google.com/p/modwsgi/wiki/QuickInstallationGuide)
+ * Add 'LoadModule wsgi_module /usr/lib/apache2/modules/mod_wsgi.so' to /etc/apache2/apache2.conf
  * Remember to modify the python path in the apache2 configuration file for your website
  * Also see this http://stackoverflow.com/questions/5930585/how-to-use-python-3-and-django-with-apache if you still have problems
